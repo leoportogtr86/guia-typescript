@@ -1,0 +1,18 @@
+{
+  "name": "guia-ts",
+  "version": "1.0.0",
+  "description": "1. **O que é TypeScript?** - Vantagens e desvantagens.\r 2. **Instalação do TypeScript** - Via npm/yarn, configurando o ambiente.\r 3. **Configuração do tsconfig.json** - Opções e personalização.\r 4. **Tipos Primitivos** - number, string, boolean, null, undefined, any, void.\r 5. **Tipos de Arrays** - Declaração e uso de arrays.\r 6. **Tuplas** - Definindo e utilizando tuplas.\r 7. **Enums** - Definindo e usando enums.\r 8. **Interfaces** - Declaração e implementação de interfaces.\r 9. **Tipos Literais** - Uso de tipos literais.\r 10. **Type Aliases** - Criando e usando aliases de tipos.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
