@@ -9,7 +9,8 @@ interface Carro {
 const c: Carro = {
     marca: "Renault",
     modelo: "Kwid",
-    ano: 2020
+    ano: 2020,
+    portas: 2
 }
 
 console.log(c);
