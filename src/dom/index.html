@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de DOM com TypeScript</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header>
+    <h1>Bem-vindo ao Manipulador de DOM</h1>
+</header>
+<main>
+    <section id="info">
+        <p id="mensagem">Clique no botão abaixo para alterar esta mensagem.</p>
+        <button id="btnMensagem">Alterar Mensagem</button>
+    </section>
+    <section id="inputSection">
+        <label for="nomeInput">Digite seu nome:</label>
+        <input type="text" id="nomeInput" placeholder="Seu nome">
+        <button id="btnNome">Enviar</button>
+        <p id="nomeSaida"></p>
+    </section>
+    <section id="imagemSection">
+        <img id="imagem" src="https://via.placeholder.com/150" alt="Imagem de exemplo">
+        <button id="btnImagem">Trocar Imagem</button>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Manipulação de DOM com TypeScript</p>
+</footer>
+<script src="../../build/dom/app.js"></script>
+</body>
+</html>
