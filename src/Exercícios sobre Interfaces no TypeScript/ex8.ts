@@ -5,6 +5,7 @@ interface Veiculo {
     marca: string;
 }
 
+// @ts-ignore
 interface Carro extends Veiculo {
     portas: number;
 }

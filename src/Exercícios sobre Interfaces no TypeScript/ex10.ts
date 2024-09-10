@@ -1,6 +1,7 @@
 // 10. **Exercício 10:** Crie uma interface `Endereco` com as propriedades `rua` (string), `numero` (number) e `cidade` (
 //     string). Adicione uma propriedade opcional `complemento` (string). Declare um objeto do tipo `Endereco` e imprima
 // suas propriedades.
+// @ts-ignore
 interface Endereco {
     rua: string;
     numero: number;

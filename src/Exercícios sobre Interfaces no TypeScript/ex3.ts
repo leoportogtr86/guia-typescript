@@ -1,5 +1,6 @@
 // 3. **Exercício 3:** Defina uma interface `Pessoa` com as propriedades `nome` (string) e `idade` (number).
 // Crie uma função que aceite um parâmetro do tipo `Pessoa` e imprima uma saudação usando essas propriedades.
+// @ts-ignore
 interface Pessoa {
     nome: string;
     idade: number;
